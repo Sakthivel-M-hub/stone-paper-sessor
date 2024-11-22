@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:  #022b42;
+}
+.heading{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 100px;
+    font-size: larger;
+    font-weight: 200px;
+    font-family:monospace;
+    color: white;
+}
+#setofbox{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 50px;
+}
+#display{
+    width: 250px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.boxes{
+    display: flex;
+    align-items:center;
+    height: 200px;
+    width: 200px;
+    background-color:#004D74;
+    border-color: transparent;
+    border-radius: 15px;
+    box-shadow:1px 10px 10px 10px  #003554 ;
+}
+#playerselectionlist{
+    display: block;
+    margin-left: 162px;
+    margin-top: 30px;
+    position: absolute;
+}
+.playerselectionbtn{
+    height: 60px;
+    width: 60px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color:#004D74;
+    box-shadow:5px 1px 10px 1px  #003554 ;
+}
+.playerselectionbtn:hover{
+    background-color: aliceblue;
+    
+}
